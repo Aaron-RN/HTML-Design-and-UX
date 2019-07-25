@@ -1,3 +1,9 @@
+.block{
+    display: block;
+}
+.static{
+    position: static;
+}
 .inline-block{
     display: inline-block;
 }
@@ -73,7 +79,8 @@
 .text-align-left{text-align: left;}
 .text-align-right{text-align: right;}
 
-
+.pad-0{padding: 0;}
+.pad-l-0{padding-left: 0;}
 .pad-5{
     padding: 5px;
 }
@@ -91,6 +98,9 @@
 }
 .pad-10{
     padding: 10px;
+}
+.pad-12{
+    padding: 12px;
 }
 .pad-t-5{
     padding-top: 5px;
@@ -140,6 +150,12 @@
 .pad-l-20{
     padding-left: 20px;
 }
+.pad-l-40{
+    padding-left: 40px;
+}
+.pad-l-80{
+    padding-left: 80px;
+}
 .pad-b-20{
     padding-bottom: 20px;
 }
@@ -150,6 +166,8 @@
     padding-right: 60px;
 }
 
+.margin-none{margin: 0;}
+.margin-0{margin:0;}
 .margin-t-5{
     margin-top: 5px;
 }
@@ -168,11 +186,20 @@
 .margin-t-26{
     margin-top: 26px;
 }
+.margin-top{
+    margin-top: 2em;
+}
 .margin-top-main{
     margin-top: 3em;
 }
-.margin-top{
-    margin-top: 2em;
+.margin-top-6em{
+    margin-top: 6em;
+}
+.margin-top-8em{
+    margin-top: 8em;
+}
+.margin-top-12em{
+    margin-top: 12em;
 }
 .margin-l-auto{
     margin-left: auto;
