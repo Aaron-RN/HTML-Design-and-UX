@@ -12,8 +12,9 @@ body{margin: auto;text-align: center;}
 .font-Lato{font-family: 'Lato', sans-serif;}
 
 strong{font-weight: bold;}
+.underline{text-decoration: underline;}
 
-.bold{font-weight: bold;}
+.bold{font-weight: 700;}
 .bold-100{font-weight: 100;}
 .bold-200{font-weight: 200;}
 .bold-300{font-weight: 300;}
@@ -197,6 +198,10 @@ div:hover{
     font-family: 'Catamaran', sans-serif;
     font-weight: 900;
 }
+input::placeholder{color: white;opacity: 0.9;}
+input::-ms-input-placeholder{color: white;}
+input:-ms-input-placeholder{color: white;}
+
 .no-bg{background: transparent;border: none;}
 .no-decor-btn{
     color: white;
