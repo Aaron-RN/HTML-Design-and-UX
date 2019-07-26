@@ -101,8 +101,13 @@ nav [class*="col"]:last-of-type{
     overflow: hidden;
     padding: 15px;
 }
+div{transition-duration: 0.5s;}
 div:hover{
     outline: 1px blue solid;
+}
+.article{transition-duration: 0.5s;}
+.article:hover{
+    transform: Scale(1.025,1.025);
 }
 .col-1-1{
     display: block;
@@ -159,6 +164,18 @@ div:hover{
     height: 60px;
     border-radius: 8px;
     margin-right: 10px;
+}
+
+.rotate-20{
+    transition-duration: 0.5s;
+    -ms-transform: rotate(-12deg);
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+}
+.rotate-20:hover{
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 .imgblock-large{
     background-color: white;
