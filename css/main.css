@@ -6,6 +6,8 @@ body{margin: auto;text-align: center;}
     box-sizing: border-box;
 }
 
+.display-none{display: none;}
+
 .font-Catamaran{font-family: 'Catamaran', sans-serif;}
 .font-Roboto{font-family: 'Roboto', sans-serif;}
 .font-Open-Sans{font-family: 'Open Sans', sans-serif;}
@@ -94,6 +96,7 @@ nav [class*="col"]:last-of-type{
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    z-index: 999;
 }
 [class*="col"]{
     position: relative;
@@ -101,8 +104,8 @@ nav [class*="col"]:last-of-type{
     overflow: hidden;
     padding: 15px;
 }
-div{transition-duration: 0.5s;}
-div:hover{
+div, header, footer{transition-duration: 0.5s;}
+div:hover, header:hover, footer:hover{
     outline: 1px blue solid;
 }
 .article{transition-duration: 0.5s;}
