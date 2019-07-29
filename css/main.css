@@ -74,6 +74,12 @@ h3{
     font-weight: 700;
     font-size: 2em;
 }
+.header3{
+    display: inline;
+    padding: 2px 4px 2px 4px;
+    font-weight: 800;
+    font-size: 2em;
+}
 h4{
     display: inline;
     padding: 2px 4px 2px 4px;
@@ -104,8 +110,8 @@ nav [class*="col"]:last-of-type{
     overflow: hidden;
     padding: 15px;
 }
-div, header, footer{transition-duration: 0.5s;}
-div:hover, header:hover, footer:hover{
+div, header, footer, article{transition-duration: 0.5s;}
+div:hover, header:hover, footer:hover, article:hover{
     outline: 1px blue solid;
 }
 .article{transition-duration: 0.5s;}
