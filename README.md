@@ -6,6 +6,10 @@ This project consists of building a heatmap of the Smashing magazine website. Th
 
 ### [Live Demo Link](https://raw.githack.com/Aaron-RN/Design-and-UX/master/index.html)
 
+## Built With
+
+- HTML5, CSS
+
 ## Authors
 
 👤 **Aaron Rory**
